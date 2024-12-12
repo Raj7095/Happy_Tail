@@ -1,10 +1,12 @@
-import React from 'react'
-import './App.css'
+import React from 'react';
+import './App.css';
+
 
 export default function Login() {
   return (
     <>
-    
+    <body className='bd'> 
+      
       <form className="Login">
   <div className="mb-3">
     <label for="exampleInputEmail1" className="form-label">Email address</label>
@@ -30,7 +32,7 @@ export default function Login() {
   <button type="submit" classname="btn btn-primary ">Submit</button>
 </form>
     
-   
+</body>
     </>
   )
 }
